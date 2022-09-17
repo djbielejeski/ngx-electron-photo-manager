@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-electron": {
+    "ngx-electron-photo-manager": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -112,27 +112,27 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "ngx-electron-photo-manager:build"
           },
           "configurations": {
             "dev": {
-              "browserTarget": "angular-electron:build:dev"
+              "browserTarget": "ngx-electron-photo-manager:build:dev"
             },
             "production": {
-              "browserTarget": "angular-electron:build:production"
+              "browserTarget": "ngx-electron-photo-manager:build:production"
             },
             "web": {
-              "browserTarget": "angular-electron:build:web"
+              "browserTarget": "ngx-electron-photo-manager:build:web"
             },
             "web-production": {
-              "browserTarget": "angular-electron:build:web-production"
+              "browserTarget": "ngx-electron-photo-manager:build:web-production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "ngx-electron-photo-manager:build"
           }
         },
         "test": {
@@ -168,7 +168,7 @@
         }
       }
     },
-    "angular-electron-e2e": {
+    "ngx-electron-photo-manager-e2e": {
       "root": "e2e",
       "projectType": "application",
       "architect": {
@@ -183,5 +183,5 @@
       }
     }
   },
-  "defaultProject": "angular-electron"
+  "defaultProject": "ngx-electron-photo-manager"
 }

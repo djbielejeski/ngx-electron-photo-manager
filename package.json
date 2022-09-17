@@ -1,26 +1,7 @@
 {
-  "name": "angular-electron",
-  "version": "11.1.0",
+  "name": "ngx-electron-photo-manager",
+  "version": "1.0.0",
   "description": "Angular 14 with Electron 19 (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
-  "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
-  },
-  "keywords": [
-    "angular",
-    "angular 14",
-    "electron",
-    "electron 19",
-    "nodejs",
-    "typescript",
-    "playwright",
-    "eslint",
-    "sass",
-    "windows",
-    "mac",
-    "linux"
-  ],
   "main": "app/main.js",
   "private": true,
   "scripts": {
@@ -41,7 +22,6 @@
     "test:watch": "ng test",
     "e2e": "npm run build:prod && playwright test -c e2e/playwright.config.ts e2e/",
     "e2e:show-trace": "playwright show-trace e2e/tracing/trace.zip",
-    "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "lint": "ng lint"
   },
   "dependencies": {
@@ -67,8 +47,6 @@
     "@angular-eslint/template-parser": "14.0.2",
     "@angular/cli": "14.0.6",
     "@angular/compiler-cli": "14.0.6",
-    "@ngx-translate/core": "14.0.0",
-    "@ngx-translate/http-loader": "7.0.0",
     "@playwright/test": "1.23.4",
     "@types/jasmine": "4.0.3",
     "@types/jasminewd2": "2.0.10",
